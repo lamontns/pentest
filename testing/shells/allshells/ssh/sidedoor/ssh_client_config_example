@@ -1,4 +1,0 @@
-Host MY_HOSTNAME
-    User sidedoor
-    #IdentityFile # Optionally specify a different private key.
-    ProxyCommand ssh REMOTE_SERVER nc localhost TUNNEL_PORT

@@ -1,0 +1,2 @@
+# vulscans
+check cmd execute 

